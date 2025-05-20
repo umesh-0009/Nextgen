@@ -1,0 +1,31 @@
+Boost Your PC Like an IT Support Pro – CMD Commands You Should Know! 🖥️💡
+
+Whether you’re a tech enthusiast or working in IT support, knowing a few Command Prompt (CMD) tricks can save you a ton of time and help troubleshoot everyday issues.
+
+Here are some essential CMD commands I use regularly in IT support:
+
+🛠️ Check and Fix Disk Errors
+chkdsk C: /f /r
+✅ Scans and repairs file system issues and bad sectors.
+
+🧱 Repair System Files
+sfc /scannow
+✅ Scans and fixes corrupted Windows system files.
+
+🧰 Restore Windows Health
+DISM /Online /Cleanup-Image /RestoreHealth
+✅ Repairs system image when things just don’t work right.
+
+🧹 Clear Temp Files
+del /q/f/s %TEMP%\*
+✅ Frees up space and removes clutter.
+
+⚡ See What’s Running
+tasklist & taskkill /f /im appname.exe
+✅ Check for resource hogs and close unresponsive apps.
+
+🧼 Launch Disk Cleanup
+cleanmgr
+✅ Easy way to clear junk files without installing anything.
+
+These basic commands help solve issues faster, improve system performance, and keep things running smoothly—even before calling for escalation. 💪
